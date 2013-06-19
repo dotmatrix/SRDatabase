@@ -2,8 +2,13 @@
 //  Created by William Preston Harrison
 //  preston@squarerootapps.com
 
+#define UNIQUE_KEY  @"40f3g94jshjfdk409gj3" //randomly generated constant for saving database
+
 
 @interface SRDatabase : NSObject
+{
+    NSMutableDictionary *settings;  
+}
 
 + (id) sharedDatabase;
 
