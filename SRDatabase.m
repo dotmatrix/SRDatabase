@@ -3,7 +3,6 @@
 //  preston@squarerootapps.com
 
 #define DATABASE_CAPACITY 100 //number of objects that can be stored in the database (changeable)
-#define APPLICATION_KEY   @"adfiu3nag8323hgfa" //doesn't matter what it is, as long as it's constant
 
 @implementation SRDatabase
 
